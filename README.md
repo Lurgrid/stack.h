@@ -44,11 +44,6 @@ stack_pop : renvoie NULL si la pile associée à s est vide. Dépile sinon la pi
 extern void *stack_pop(stack *s);
 ```
 
-stack_pop : renvoie NULL si la pile associée à s est vide. Dépile sinon la pile et renvoie la référence qui était au sommet de la pile avant le dépilement.
-
-```c
-extern void *stack_pop(stack *s);
-```
 
 stack_top : renvoie NULL si la pile associée à s est vide. Renvoie sinon la référence qui est au sommet de la pile.
 
